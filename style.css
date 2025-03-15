@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+
+.ribeye-regular {
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.fascinate-regular {
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body{
+    margin: 0;
+    font-family: 'Ribeye', sans-serif;
+}
+
+h1{
+    text-align:center;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.color-container{
+    background-color: #7575FF;
+    width: 300px;
+    height: 150px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #000000;
+    border: solid black 2px;
+    border-radius: 10px;
+}   
